@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap Learning</title>
+    <!-- CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <section class="container bg-light" >
+        <h1 class="text-primary">My First Bootstrap Page</h1>
+        <p class=" h3 text-center text-uppercase text-success">This part is inside a .container class.</p>
+        <p>The .container class provides a responsive fixed width container.</p>
+        <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
+        <p class="border border-4 border-success rounded rounded-4 w-50 mt-5 ms-5 ps-5 p-lg-5">Web Developer</p>
+       </section>
+       <section class="container-fluid" style="background-color: bisque;">
+        <h1>My First Bootstrap Page</h1>
+        <p>This part is inside a .container class.</p>
+        <p>The .container class provides a responsive fixed width container.</p>
+        <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
+       </section>
+
+       <div class="container mt-3">
+        <h2>Table Head Colors</h2>
+        <p>You can use any of the contextual classes to only add a color to the table header:</p>
+        <table class="table table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th>Full Name</th>
+              <th>City</th>
+              <th>Mobile</th>
+              <th>Marks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jenny Get</td>
+              <td>LA</td>
+              <td>+8989 7867</td>
+              <td>89%</td>
+            </tr>
+            <tr>
+              <td>Stew Jobs</td>
+              <td>Pune</td>
+              <td>+8989 7867</td>
+              <td>91%</td>
+            </tr>
+            <tr>
+              <td>Elon Musk</td>
+              <td>Mumbai</td>
+              <td>+8989 7867</td>
+              <td>78%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+       
+
+
+      <div class="container mt-3">
+        <h2>List Group With Badges</h2>
+        <p>Combine .badge classes with utility/helper classes to add badges inside the list group:</p>
+        <ul class="list-group w-50">
+          <li class="list-group-item d-flex justify-content-between">HTML and CSS
+            <span>
+                <span class="badge bg-primary rounded-pill ms-5 me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+            </span>
+          </li>
+    <li class="list-group-item d-flex justify-content-between"> JavaScript
+            <span>
+                <span class="badge bg-primary rounded-pill ms-5 me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+            </span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between"> Angular
+            <span>
+                <span class="badge bg-primary rounded-pill ms-5 me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+            </span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">REACT
+            <span>
+                <span class="badge bg-primary rounded-pill ms-5 me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+                <span class="badge bg-primary rounded-pill me-1">⭐</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Card Image</h2>
+        <p>Image at the top (card-img-top):</p>
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="devloper.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+        <br>
+      </div>
+      <!-- <div class="container">
+        <h2>Contextual Colors</h2>
+        <p>Use the contextual classes to provide "meaning through colors":</p>
+        <p class="text-muted">This text "Shailesh" is muted.</p>
+        <p class="text-primary">This text "Shailesh" is important.</p>
+        <p class="text-success">This text "Shailesh" indicates success.</p>
+        <p class="text-info">This text "Shailesh" represents some information.</p>
+        <p class="text-warning">This text "Shailesh" represents a warning.</p>
+        <p class="text-danger">This text "Shailesh" represents danger.</p>
+      </div>
+
+
+      <div class="container">
+        <h2>Contextual Backgrounds</h2>
+        <p>Use the contextual background classes to provide "meaning through colors":</p>
+        <p class="bg-primary">This text  "Shailesh" is important.</p>
+        <p class="bg-success">This text  "Shailesh" indicates success.</p>
+        <p class="bg-info">This text  "Shailesh" represents some information.</p>
+        <p class="bg-warning">This text  "Shailesh" represents a warning.</p>
+        <p class="bg-danger">This text  "Shailesh" represents danger.</p>
+      </div>
+
+
+      <div class="container">
+        <h2>Contextual Border</h2>
+        <p>Use the contextual background classes to provide "meaning through colors":</p>
+        <p class="border-primary">This text  "Shailesh" is important.</p>
+        <p class="border-success">This text  "Shailesh" indicates success.</p>
+        <p class="border-info">This text  "Shailesh" represents some information.</p>
+        <p class="border-warning">This text  "Shailesh" represents a warning.</p>
+        <p class="border-danger">This text  "Shailesh" represents danger.</p>
+      </div>
+
+
+      <div class="container">
+        <h2>Button Styles</h2>
+        <button type="button" class="btn">Basic "Shailesh"</button>
+        <button type="button" class="btn btn-default">default "Shailesh"</button>
+        <button type="button" class="btn btn-primary">primary "Shailesh"</button>
+        <button type="button" class="btn btn-success">success"Shailesh"</button>
+        <button type="button" class="btn btn-info">info "Shailesh"</button>
+        <button type="button" class="btn btn-warning">warning "Shailesh"</button>
+        <button type="button" class="btn btn-danger">danger "Shailesh"</button>
+        <button type="button" class="btn btn-link">link "Shailesh"</button>      
+      </div>
+
+
+      <div class="container">
+        <h2>Badges</h2>
+        <a href="#">News <span class="badge">5⭐⭐⭐⭐⭐⭐</span></a><br>
+        <a href="#">Comments <span class="badge">10⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</span></a><br>
+        <a href="#">Updates <span class="badge">2⭐⭐</span></a>
+      </div>
+
+      <div class="container">
+        <h2>rounded</h2>
+        <p class="rounded rounded-top w-25 h-25">Angular</p>
+        <p class="rounded rounded-end w-50 h-50">Angular</p>
+        <p class="rounded rounded-bottom w-75 h-75">Angular</p>
+        <p class="rounded rounded-start w-100 h-100">Angular</p>
+        <p class="rounded rounded-circle w-auto h-auto">Angular</p>
+        <p class="rounded rounded-pill mw-100 mh-100">Angular</p>
+      </div>
+
+     -->
+</body>
+</html>
